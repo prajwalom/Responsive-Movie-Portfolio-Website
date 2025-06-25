@@ -15,3 +15,11 @@ body {
     color: var(--text-color);
     font-family: var(--sans-serif);
 }
+
+
+.headers {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: -2px -8px 14px 1px var(--medium-light-white);
+}
