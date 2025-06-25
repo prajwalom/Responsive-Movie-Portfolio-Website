@@ -90,3 +90,37 @@ body {
     color: var(--bg-color);
     transition: all 0.3s ease-in-out;
 }
+
+.nav-arrow:nth-child(2):hover {
+    color: var(--light-white);
+}
+
+.nav-arrow>i {
+    font-size: 35px;
+    font-weight: 300;
+
+}
+
+.search-section {
+    flex: 1;
+    max-width: 388px;
+    margin: 0 16px;
+}
+
+.search-container {
+    position: relative;
+    background-color: var(--light-dark-color);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 8px 18px 8px 25px;
+    transition: all 0.3s ease-in-out;
+    gap: 1rem;
+
+}
+
+.search-container i {
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--text-white);
+}
