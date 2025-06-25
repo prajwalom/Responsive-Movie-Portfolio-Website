@@ -70,3 +70,23 @@ body {
     gap: 15px;
     align-items: center;
 }
+
+.nav-arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-arrow:hover {
+    background-color: var(--yellow-color);
+    color: var(--bg-color);
+    transition: all 0.3s ease-in-out;
+}
