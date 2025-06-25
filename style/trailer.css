@@ -1,0 +1,11 @@
+/* CSS Custom Properties for Game of Thrones Theme */
+:root {
+    --text-color: #fff;
+    --light-white: #fafafaa1;
+    --medium-light-white: #ffffffdb;
+    --bg-color: #0b0d0f;
+    --light-dark-color: #2a2a2a;
+    --light-red: #fc0505c7;
+    --yellow-color: #f7c703;
+    --sans-serif: "Poppins", sans-serif;
+}
